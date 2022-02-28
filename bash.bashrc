@@ -114,7 +114,7 @@ inf-информатика
 bio-биология'
 
 alias del-bash='cd ~ ; rm -r ../usr/etc/bash.bashrc -f'
-alias cd-bash='cd ~ ; cd ../usr/etc/
+alias cd-bash='cd ~ ; cd ../usr/etc'
 alias nano-bash='cd ~ ; nano ../usr/etc/bash.bashrc'
 alias ll='ls -a'
 alias ls='ls --color=auto'
