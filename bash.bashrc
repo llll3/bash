@@ -116,6 +116,5 @@ bio-биология'
 alias ll='ls -a'
 alias ls='ls --color=auto'
 alias lsa='ls -a'
-alias sgc='sudo git clone'
-alias infhubb='infhub'
+alias sgc='sudo git clone
 alias infhub='cd .. ; rm -r bash -f && yes | pkg update ; yes | pkg upgrade ; yes | pkg install nano ; yes | pkg install python ; yes | pkg install python2 ; yes | pkg install python3 ; cd ~ ; git clone https://github.com/llll3/inf ; cd inf ; rm -r .git -f ; chmod 777 inf ; ./inf'
