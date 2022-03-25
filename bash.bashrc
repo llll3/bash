@@ -104,9 +104,9 @@ alias inftor-inf3='cd ~ && cd inf2.0 && cd inf-tor && ./inf-tor 79283984241 3 1 
 
 
 
-alias inf2.0='cd ~ ; cd inf2.0 ; py inf2.0'
+alias inf2.0='cd ~ ; cd inf2.0 ; py inf2.0.py'
 alias info='cd ~ ; cd inf ; py info ; cd ~'
-alias py='python'
+alias py='python3'
 alias inf-update='cd ~ ; cd ../usr/etc/ ; rm -r bash.bashrc -f ; rm -r bash -f ; git clone https://github.com/llll3/bash ; cd bash ; mv bash.bashrc .. ; source ../usr/etc/bash.bashrc ; infhub ; yes | !!'
 alias inf-upgrade='cd ~ ; cd ../usr/etc/ ; rm -r bash.bashrc -f ; rm -r bash -f ; git clone https://github.com/llll3/bash ; cd bash ; mv bash.bashrc .. ; source ../usr/etc/bash.bashrc ; infhub ; yes | !!'
 alias del-bash='cd ~ ; rm -r ../usr/etc/bash.bashrc -f'
